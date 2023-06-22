@@ -1,4 +1,4 @@
-Copyright (C) 2023 The LineageOS Project
+Under Development! Wip by the YHC(dttzyjw0012).
 
 Device configuration for Xiaomi Mi 12S
 =========================================
