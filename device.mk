@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
+# TODO
 # Display Device Config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_4630946736638489730.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/display_id_4630946736638489730.xml
@@ -35,6 +36,7 @@ PRODUCT_PACKAGES += \
     SystemUIResMayfly \
     WifiResMayfly
 
+# TODO
 # PowerShare
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.xiaomi_sm8475
@@ -47,6 +49,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# TODO
 # Touch
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.xiaomi_sm8475
@@ -59,5 +62,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/firmware/st_fts_k2_htp.ftb:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/st_fts_k2_htp.ftb
 
 
+# TODO
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/mayfly/mayfly-vendor.mk)

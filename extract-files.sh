@@ -18,4 +18,5 @@ export DEVICE=mayfly
 export DEVICE_COMMON=sm8475-common
 export VENDOR=xiaomi
 
+# TODO
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
